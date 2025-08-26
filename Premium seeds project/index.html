@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Seeds Rice Mill</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100%;
+    }
+    .slideshow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+    .slideshow img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      animation: fade 20s infinite;
+    }
+    .slideshow img:nth-child(1) { animation-delay: 0s; }
+    .slideshow img:nth-child(2) { animation-delay: 5s; }
+    .slideshow img:nth-child(3) { animation-delay: 10s; }
+    .slideshow img:nth-child(4) { animation-delay: 15s; }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      10% { opacity: 1; }
+      25% { opacity: 1; }
+      35% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      background: rgba(255, 255, 255, 0.9);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+    }
+    h1, h2 {
+      color: #1b5186;
+    }
+    footer {
+      background: rgba(0,0,0,0.7);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slideshow">
+    <img src="C:\Users\USER\OneDrive\Desktop\Premium seeds project\images\bright-colorful-interior-view-rice-processing-facility-showcasing-milling-process-production-area-located-bustling-393088864.webp" alt="Rice field">
+    <img src="C:\Users\USER\OneDrive\Desktop\Premium seeds project\images\ripe-rice-field-and-sky-background-at-sunset-time-with-sun-rays-TD07BB.jpg" alt="White rice grains">
+    <img src="C:\Users\USER\OneDrive\Desktop\Premium seeds project\images\close-up-raw-white-rice-grains-uncooked-long-grain-rice-forming-textured-natural-background-ideal-food-agriculture-388034057.webp" alt="Rice milling">
+    <img src="C:\Users\USER\OneDrive\Desktop\Premium seeds project\images\cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2ZsNTIyNDExNTYyNjQtaW1hZ2UuanBn.webp" alt="Rice sack">
+  </div>
+
+  <header>
+    <h1>Premium Seeds Rice Mill</h1>
+    <p>Quality Milling • Clean Rice • Trusted Service</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>At Premium Seeds Rice Mill, we specialize in high-quality rice milling, packaging, and destoning. Our mission is to deliver clean, nutritious, and well-processed rice that meets the needs of households and businesses.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Rice Destoning and Cleaning</li>
+      <li>Milling and Polishing</li>
+      <li>Packaging and Distribution</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: info@premiumseedsricemill.com</p>
+    <p>Phone: +234-800-000-0000</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Premium Seeds Rice Mill. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
